@@ -16,13 +16,9 @@ To check that logs arrive I usually use:
 index=* | stats count by host, sourcetype
 ```
 
-![logs](images/01-splunk-windows-logs.png)
-
 ## Dashboard
 
 Made a simple dashboard with 3 panels: events over time, failed logons by account, and PowerShell processes from Sysmon.
-
-![dashboard](images/03-splunk-windows-security-dashboard.png)
 
 ## What I tested
 
