@@ -16,7 +16,7 @@ To check that logs arrive I usually use:
 index=* | stats count by host, sourcetype
 ```
 
-![logs](images/01-splunk-windows-logs.png)
+![logs](screenshots/01-splunk-windows-logs.png)
 
 ## Dashboard
 
